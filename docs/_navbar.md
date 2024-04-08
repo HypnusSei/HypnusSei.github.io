@@ -1,5 +1,5 @@
 * [Home :taiwan::cn:](/)
 
-* [Blog 🗄🗄](/blog/guide.md "BLOG GUIDE")
+* [Blog 🗄🗄](/blog/trip/guide.md "BLOG GUIDE")
     * [Before Blog💭](/blog/README.md)
-    * [History🎯](/blog/history.md)
+    * [AboutMe :pray: ](/blog/AboutAuther.md)

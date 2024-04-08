@@ -1,6 +1,6 @@
 ![logo](_media/wodexuexi.svg)
 
-# Blog <small>3.6</small>
+# Blog <small>一个不希望被约束管控的灵魂</small>
 
 <!-- [GitHub](https://github.com/docsifyjs/docsify/)
 [Get Started](#quick-start) -->
