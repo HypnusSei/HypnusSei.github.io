@@ -43,6 +43,7 @@
     - [大马华人](/blog/Nationality/MalasiaHans.md)
     -[爱国主义](/blog/Nationality/Patriotism.md)
     -[党派](/blog/Nationality/Parties.md)
+    - [我们文化的内涵](/blog/Nationality/ChinaCulture.md)
   - 故乡
     - [家史](/blog/Nationality/history.md)
     - [方言土话](/blog/Nationality/dialect.md)
