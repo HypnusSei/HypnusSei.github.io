@@ -40,7 +40,49 @@
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
     <!-- <script src="docsify-sidebar-tree.js"></script> -->
     <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script> -->
+    <!-- or -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script> -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+    <script>
+        var gitalk = new Gitalk({
+                clientID: '6fd75e5b1a211f3a5951',
+                clientSecret: '3fbd89c625b0c058bc3c8c007c3f69991564020d',
+                repo: 'HypnusSei.github.io', // 存放评论的仓库
+                owner: 'HypnusSei', // 仓库的创建者，
+                admin: ['HypnusSei'], // 如果仓库有多个人可以操作，那么在这里以数组形式写出
+                title: `Document comment ${location.hash.match(/#(.*?)([?]|$)/)[1]}`,
+                id: location.hash.match(/#(.*?)([?]|$)/)[1], // 存放评论的仓库
+                distractionFreeMode: false,
+                // id: decodeURI(window.location.pathname),
+            })
+            // Listen for changes in hash in the URL. If an MD file is found to have changed,
+            // refresh the page to solve the problem of using a single digital comment issue for the entire website.
+        window.onhashchange = function(event) {
+            if (event.newURL.split('?')[0] !== event.oldURL.split('?')[0]) {
+                location.reload()
+            }
+            // 由于docsify的链接URL使用的是hash的方式，导致切换页面的时候不会刷新页面，导致整个网站的Gitalk评论使用的是一个评论，因此做了监听hash事件，来刷新页面，这样就能每次切换页面刷新，然后加载对应的评论。
+            // 关于Gitalk参数id的值，由于点击二级标题后，二级标题会以参数的形式出现在url上，导致长度有事超过了50，所以过滤掉URL中的参数，此外还能解决评论定位不到问题(二级标题会在URL上)。
+            //有的时候 URL 中带着页面标题的链接，导致 URL 长度超过了 50 个字符长度，会导致创建评论 issues 失败(长度超过50个会创建失败),也可以如下解决：
+            //id参数用于评论记录和页面对应的唯一标记，有的时候发现好几个页面评论是一样的，就是由于配置id参数的时候，这几个页面的id是一样导致
+            //     const gitalk = new Gitalk({
+            //   clientID: '2c899ee8d4dc774ee56f',
+            //   clientSecret: 'e69d5fcc23e6c8396a31ad3a3a011b4523a3a73e',
+            //   repo: 'design-patterns',
+            //   owner: 'swiftdo',
+            //   admin: ['OHeroJ'],
+            //   distractionFreeMode: false,
+            //   id: decodeURI(window.location.pathname),
+            // })
+        }
+    </script>
 </body>
+<!-- <div id="gitalk-container"></div> -->
 
 </html>

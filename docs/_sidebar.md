@@ -30,11 +30,11 @@
           - [第四年](/blog/Trip/CA_4th.md)
           - [阔别七年的重逢](/blog/Trip/CA_5th.md)
       - [普吉岛](/blog/trip/phuket.md)
-      -[曼谷](/blog/Trip/Bangkok.md)
+      - [曼谷](/blog/Trip/Bangkok.md)
       - [上海](/blog/Trip/ShangHai.md)
-      -[台湾](/blog/Trip/TaiPei.md)
-      -[香港](/blog/Trip/HK.md)
-      -[survival](/blog/Trip/survivor.md)
+      - [台湾](/blog/Trip/TaiPei.md)
+      - [香港](/blog/Trip/HK.md)
+      - [survival](/blog/Trip/survivor.md)
 
   - [有的没的](/blog/Nationality/guide.md)
     - 宗教
@@ -48,6 +48,7 @@
       -[党派](/blog/Nationality/Parties.md)
       - [我们文化的内涵](/blog/Nationality/ChinaCulture.md)
       - [独生子女政策](/blog/Nationality/BornOnlyOne.md)
+      - [roc](/blog/Nationality/ROC.md)
     - 故乡
       - [家史](/blog/Nationality/history.md)
       - [方言土话](/blog/Nationality/dialect.md)
@@ -67,6 +68,7 @@
         - [docsify](/blog/software/Web/docsify.md)
         - [gitblit](/blog/software/web/gitblit.md)
         - [wiki](/blog/software/Web/wiki.md)
+        - [HPAGE](/blog/software/Web/html.html)
       - Python
         - [IDE](/blog/software/python/pythonide.md)
         - [Script](/blog/software/python/python.md)
