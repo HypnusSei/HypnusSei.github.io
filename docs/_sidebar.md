@@ -66,7 +66,7 @@
       - [WPF](/blog/software/dotNet/WPF.md)
       - Web
         - [docsify](/blog/software/Web/docsify.md)
-        - [gitblit](/blog/software/web/gitblit.md)
+        - [gitblit](/blog/software/Web/gitblit.md)
         - [wiki](/blog/software/Web/wiki.md)
         - [HPAGE](/blog/software/Web/html.html)
       - Python
