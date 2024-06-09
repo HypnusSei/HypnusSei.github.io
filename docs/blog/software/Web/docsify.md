@@ -1,5 +1,5 @@
 >as this blog
-# 静态站点
+### 静态站点
 1. docsify, refer to  [here](/blog/README.md)  
     
     初始化项目文件夹docs docsify init docs  
@@ -9,8 +9,13 @@
 3. Hugo
 4. Hexo
 
+公式：
+$$dmg = atk - def$$
 
-# 开源CMS
+TODO
+- Pytorch
+
+### 开源CMS
 - WordPress
 - Ghost
 - Drupal
